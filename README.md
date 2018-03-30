@@ -4,6 +4,7 @@ Configure the local MySql instance and chanhe the configuration in the applicati
 
 #### Sql Ddl ####
 
+```sql
 CREATE DATABASE `registry`
 
 CREATE TABLE `user` (
@@ -22,3 +23,4 @@ BEGIN
 
 END$$
 DELIMITER ;
+```
